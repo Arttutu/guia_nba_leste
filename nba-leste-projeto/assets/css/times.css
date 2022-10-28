@@ -1,0 +1,134 @@
+.times__leste{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+    height: calc(100vh - 50px);
+    background: url(../img/basquetebol-bola-esporte-madeira-dura-imagem-de-fundo.jpg) center / cover  no-repeat;;
+}
+.times__caixa{
+    background: url('../img/Boston_Celtics.png') center / cover  no-repeat;
+    border: 2px green solid;
+    grid-column: 1 / 1;
+    grid-row: 1/1;
+    margin: 10px;
+    transition: 2s;
+}
+
+.times__caixa:nth-child(2){
+    background: url('../img/Washington_Wizards.png') center / cover  no-repeat;
+    border: 2px blue solid;
+    border-radius: 5px;
+    grid-column: 2 / 3;
+    grid-row: 1/2;
+    margin: 10px;
+}
+.times__caixa:nth-child(3){
+    background: url('../img/Milwaukee_Bucks_logo15.png') center / cover  no-repeat;
+    border: 2px green solid;
+    border-radius: 5px;
+    grid-column: 3 / 4;
+    grid-row: 2/3;
+    margin: 10px;
+}
+.times__caixa:nth-child(4){
+    background: url('../img/Charlotte_Hornets.png') center / cover  no-repeat;
+    border: 2px #1D1160 solid;
+    border-radius: 5px;
+    grid-column: 4 / 5;
+    grid-row: 2/3;
+    margin: 10px;
+}
+.times__caixa:nth-child(5){
+    background: url('../img/Cleveland_Cavaliers_logo.svg.png') center / cover  no-repeat;
+    border: 2px #860038 solid;
+    border-radius: 5px;
+    grid-column: 5 / 6;
+    grid-row: 2/3;
+    margin: 10px;
+}
+.times__caixa:nth-child(6){
+    background: url('../img/NewYorkKnicks.PNG') center / cover  no-repeat;
+    border: 2px #2E66B2 solid;
+    border-radius: 5px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: 10px;
+}
+.times__caixa:nth-child(7){
+    background: url('../img/Atlanta_Hawks.png') center / cover  no-repeat;
+    border: 2px #C8102E solid;
+    border-radius: 5px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: 10px;
+}
+.times__caixa:nth-child(8){
+    background: url('../img/Toronto_Raptors_logo.svg.png') center / cover  no-repeat;
+    border: 2px #CE1141 solid;
+    border-radius: 5px;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    margin: 10px;
+}
+.times__caixa:nth-child(9){
+    background: url('../img/Chicago_Bulls.png') center / cover  no-repeat;
+    border: 2px red solid;
+    border-radius: 5px;
+    grid-column: 4/5;
+    grid-row: 1/2;
+    margin: 10px;
+}
+.times__caixa:nth-child(10){
+    background: url('../img/300px-Brooklyn_Nets_newlogo.svg.png') center / cover  no-repeat;
+    border: 2px black solid;
+    border-radius: 5px;
+    grid-column: 5/6;
+    grid-row: 1/2;
+    margin: 10px;
+}
+.times__caixa:nth-child(11){
+    background: url('../img/76ers_wbg.png') center / cover  no-repeat;
+    border: 2px red solid;
+    border-radius: 5px;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin: 10px;
+}
+.times__caixa:nth-child(12){
+    background: url('../img/Indiana_Pacers.png') center / cover  no-repeat;
+    border: 2px #002D62 solid;
+    border-radius: 5px;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin: 10px;
+}
+.times__caixa:nth-child(13){
+    background: url('../img/Miami_Heat.png') center / cover  no-repeat;
+    border: 2px #98002E solid;
+    border-radius: 5px;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    margin: 10px;
+}
+.times__caixa:nth-child(14){
+    background: url('../img/Detroit_Pistons_primary_logo_2017.png') center / cover  no-repeat;
+    border: 2px #ED174C solid;
+    border-radius: 5px;
+    grid-column: 4/5;
+    grid-row: 3/4;
+    margin: 10px;
+}
+.times__caixa:nth-child(15){
+    background: url('../img/Orlando_Magic.png') center / cover  no-repeat;
+    border: 2px #0077C0 solid;
+    border-radius: 5px;
+    grid-column: 5/6;
+    grid-row: 3/4;
+    margin: 10px;
+}
+.times__caixa:hover{
+    background: white;
+    cursor: pointer;
+    border: none;
+   
+}
